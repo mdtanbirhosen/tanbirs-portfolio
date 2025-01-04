@@ -1,5 +1,6 @@
 import Typewriter from 'typewriter-effect';
 import bannerImg from '../../../assets/tanbir-min (1).png';
+import Button from '../../../components/Button';
 
 const Banner = () => {
     return (
@@ -12,21 +13,25 @@ const Banner = () => {
                         <span className="font-medium text-3xl md:text-5xl  lg:text-6xl">Md.Tanbir</span> Hossen
                     </span>
                 </h5>
-                <h2 className="text-3xl md:text-5xl lg:text-6xl">
+                <h2 className="text-3xl md:text-5xl lg:text-6xl mb-4">
                     <Typewriter
                         options={{
-                            strings: ["Jr. Web Developer", "Frontend Developer", ],
+                            strings: ["Jr. Web Developer", "Frontend Developer",],
                             autoStart: true,
                             loop: true,
-                            deleteSpeed: 50, 
+                            deleteSpeed: 50,
                         }}
                     />
                 </h2>
+                <div className='flex flex-wrap gap-4'>
+                    <Button text='Hire Me'></Button>
+                    <Button text='Download Resume'></Button>
+                </div>
             </div>
             {/* Image section */}
             <div className="w-full md:w-1/2 flex justify-center mb-4 relative">
-            <div className='md:h-[100px] md:w-[100px] h-[70px] w-[70px] bg-primary-color absolute left-0 rounded-br-full '></div>
-            <div className='md:h-[100px] md:w-[100px] h-[70px] w-[70px] bg-primary-color absolute right-0 bottom-0 rounded-tl-full '></div>
+                <div className='md:h-[100px] md:w-[100px] h-[70px] w-[70px] bg-primary-color absolute left-0 rounded-br-full '></div>
+                <div className='md:h-[100px] md:w-[100px] h-[70px] w-[70px] bg-primary-color absolute right-0 bottom-0 rounded-tl-full '></div>
                 <img className="  lg:h-[700px] " src={bannerImg} alt="Tanbir Hossen" />
             </div>
         </div>

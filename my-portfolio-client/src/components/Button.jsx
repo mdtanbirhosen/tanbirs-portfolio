@@ -10,7 +10,6 @@ const Button = ({ text }) => {
 };
 
 Button.propTypes = {
-    primary: PropTypes.bool,
     text: PropTypes.string.isRequired,
 };
 

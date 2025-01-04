@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import App from './App'
 import HomeLayout from './layout/HomeLayout/Homelayout';
+import ProjectDetail from './layout/DetailsLayout/ProjectDetails/ProjectDetail';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path:'/',
         element: <HomeLayout></HomeLayout>
+      },
+      {
+        path:'projectDetail/:id',
+        element:<ProjectDetail></ProjectDetail>
       }
     ]
   },

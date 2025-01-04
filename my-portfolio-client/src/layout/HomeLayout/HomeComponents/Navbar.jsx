@@ -9,7 +9,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar sticky top-0 max-w-screen-2xl left-0 mx-auto">
+        <div className="navbar fixed top-0 z-[1000] max-w-screen-2xl bg-black bg-opacity-40  mx-auto  w-full">
             <div className="navbar-start ">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <a className="pr-2">
-                    <Button text='Download Resume' primary={true}></Button>
+                    <Button text='Resume' primary={true}></Button>
                 </a>
             </div>
         </div>

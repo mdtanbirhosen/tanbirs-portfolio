@@ -5,6 +5,9 @@
 
 
 /* custom scroll bar */
+html {
+    scroll-behavior: smooth;
+}
 
 
 
