@@ -1,6 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import bannerImg from '../../../assets/tanbir-min (1).png';
 import Button from '../../../components/Button';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Banner = () => {
     return (
@@ -23,12 +24,38 @@ const Banner = () => {
                         }}
                     />
                 </h2>
+                {/* social media links */}
+                <div className='flex flex-wrap gap-4 py-5'>
+                    <a
+                        href="https://www.facebook.com/danger.ahaed.sstanbir.001/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-primary-color"
+                    >
+                        <FaFacebook className="text-4xl " />
+                    </a>
+                    <a
+                        href="https://github.com/mdtanbirhosen"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-primary-color"
+                    >
+                        <FaGithub className="text-4xl " />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/md-tanbir-hosen-669056251/"
+                        className="hover:text-primary-color"
+                        title="LinkedIn coming soon!"
+                    >
+                        <FaLinkedin className="text-4xl  opacity-50 cursor-not-allowed" />
+                    </a>
+                </div>
                 <div className='flex flex-wrap gap-4'>
                     <a href="#contact-me">
-                    <Button text='Hire Me'></Button>
+                        <Button text='Hire Me'></Button>
                     </a>
                     <a href="/resume.pdf" download="Md_Tanbir_Hossen_Resume.pdf">
-                    <Button text='Download Resume'></Button>
+                        <Button text='Download Resume'></Button>
                     </a>
                 </div>
             </div>

@@ -31,6 +31,16 @@ const AboutMe = () => {
                             Building intuitive, user-friendly websites and applications.
                         </span>
                     </p>
+                    <p className="flex  text-lg">
+                        <span className="font-bold">Free times: </span>
+                        <span className="text-primary-color ml-2">
+                            <ul className="list-disc ml-5">
+                                <li>Likes to Play Football</li>
+                                <li>Gardening is most of my favorite thing.</li>
+                                <li>like to extra Prayer.</li>
+                            </ul>
+                        </span>
+                    </p>
                 </div>
 
                 {/* Profile Card */}
