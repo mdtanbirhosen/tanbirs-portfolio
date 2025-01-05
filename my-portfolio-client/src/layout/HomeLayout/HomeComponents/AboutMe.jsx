@@ -62,24 +62,24 @@ const AboutMe = () => {
                     <h3 className="text-xl font-semibold text-gray-200">
                         Diploma in Engineering
                     </h3>
-                    <p className="text-lg mt-2 text-gray-300">
+                    <p className="text-xs md:text-lg mt-2 text-gray-300">
                         <span className="font-bold">Major:</span>{" "}
                         Computer Science and Technology
                     </p>
-                    <p className="text-lg mt-2 text-gray-300">
+                    <p className="text-xs md:text-lg mt-2 text-gray-300">
                         <span className="font-bold">Institution:</span>{" "}
                         SHYAMOLI IDEAL POLYTECHNIC INSTITUTE.
                     </p>
-                    <p className="text-lg mt-2 text-gray-300">
+                    <p className="text-xs md:text-lg mt-2 text-gray-300">
                         <span className="font-bold">City:</span> Mohammadpur, Dhaka
                     </p>
-                    <p className="text-lg mt-2 text-gray-300">
+                    <p className="text-xs md:text-lg mt-2 text-gray-300">
                         <span className="font-bold">Current Semester:</span>{" "}
                         7th Semester
                     </p>
-                    <p className="text-lg mt-2 text-gray-300">
+                    <p className="text-xs md:text-lg mt-2 text-gray-300">
                         <span className="font-bold">Expected Graduation:</span>{" "}
-                        May 2026
+                        December 2025
                     </p>
                     <p className="mt-4 text-gray-500">
                         Coursework includes Programming Fundamentals, Data

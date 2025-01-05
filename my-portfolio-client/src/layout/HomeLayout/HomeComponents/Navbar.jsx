@@ -1,16 +1,18 @@
-import logo from '../../../assets/nav_logo.png'
+import logo from '../../../assets/nav_logo.png';
 import Button from '../../../components/Button';
-const Navbar = () => {
 
+const Navbar = () => {
     const links = <>
-        <li><a href='#'>HOME</a></li>
-        <li><a href='#about-me'>About Me</a></li>
-        
-    </>
+        <li><a className='link-hover hover:text-primary-color' href='#'>HOME</a></li>
+        <li><a className='link-hover hover:text-primary-color' href='#about-me'>About Me</a></li>
+        <li><a className='link-hover hover:text-primary-color' href='#my-skills'>My Skills</a></li>
+        <li><a className='link-hover hover:text-primary-color' href='#my-projects'>My Projects</a></li>
+        <li><a className='link-hover hover:text-primary-color' href='#contact-me'>Contact Me</a></li>
+    </>;
 
     return (
-        <div className="navbar fixed top-0 z-[1000] max-w-screen-2xl bg-black bg-opacity-40  mx-auto  w-full">
-            <div className="navbar-start ">
+        <div className="navbar fixed top-0 z-[1000] max-w-screen-2xl bg-black bg-opacity-40 mx-auto w-full">
+            <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
@@ -32,9 +34,11 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className=" text-xl"><img 
-                className='h-[30px] md:h-[50px]'
-                src={logo} alt="" /></a>
+                <a className="text-xl">
+                    <img 
+                        className='h-[30px] md:h-[50px]'
+                        src={logo} alt="" />
+                </a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-slate-300 font-medium">
@@ -42,7 +46,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="pr-2">
+                <a className="pr-2" href="/resume.pdf" download="Md_Tanbir_Hossen_Resume.pdf">
                     <Button text='Resume' primary={true}></Button>
                 </a>
             </div>

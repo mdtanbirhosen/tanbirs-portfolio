@@ -4,7 +4,7 @@ import EmailContactForm from "./EmailContactForm";
 
 const Contact = () => {
     return (
-        <div>
+        <div id="contact-me">
             <Title title="Contact Me"></Title>
             <div className="grid md:grid-cols-2 gap-5 ">
                 <div>

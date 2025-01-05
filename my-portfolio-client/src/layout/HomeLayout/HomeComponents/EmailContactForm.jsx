@@ -32,11 +32,11 @@ const EmailContactForm = () => {
     };
 
     return (
-        <div className="max-w-screen-md mx-auto p-2 sm:p-6 bg-gray-800 text-white rounded-lg shadow-lg overflow-hidden">
+        <div className="max-w-screen-md mx-auto p-2 sm:p-6  text-white rounded-lg shadow-lg overflow-hidden">
             <h2 className="text-2xl font-semibold mb-4 text-center sm:text-left">Contact Me</h2>
-            {isSent ? (
+            {isSent &&
                 <p className="text-green-400 text-center sm:text-left">Your message has been sent successfully!</p>
-            ) : (
+            }
                 <form ref={form} onSubmit={sendEmail} className="space-y-4">
                     <div>
                         <label htmlFor="name" className="block mb-1">
@@ -84,7 +84,7 @@ const EmailContactForm = () => {
                         </button>
                     </div>
                 </form>
-            )}
+            
         </div>
     );
 };

@@ -1,23 +1,74 @@
 [
     {
         "id": "01",
-        "img": "https://i.ibb.co/Jnj2t12/Screenshot-2025-01-05-002059.png",
-        "name": "VISA_NAVIGATOR",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, ut cupiditate quas animi hic velit aperiam veniam in quasi debitis porro saepe doloribus distinctio magni dignissimos vitae dolorum nemo asperiores?",
-        "liveLink": " https:/modern-hotel-booking-platform.web.app/"
+        "img": "https://i.ibb.co/DpmDrg1/Screenshot-2025-01-05-002026.png",
+        "name": "Modern Hotel",
+        "description": "A responsive hotel booking platform offering seamless user experience and efficient booking management.",
+        "liveLink": "https://visa-navigator-client-side.web.app/",
+        "keyFeatures": [
+            "User-friendly interface for booking rooms",
+            "Dynamic room availability checking",
+            "Secure payment integration",
+            "Responsive design for all devices"
+        ],
+        "challenges": [
+            "Implementing real-time room availability",
+            "Integrating payment gateways securely",
+            "Optimizing performance for large data sets"
+        ],
+        "technologiesUsed": [
+            "React",
+            "Firebase",
+            "Tailwind CSS",
+            "Node.js"
+        ]
     },
     {
         "id": "02",
-        "img": "https://i.ibb.co/DpmDrg1/Screenshot-2025-01-05-002026.png",
-        "name": "Modern Hotel",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, ut cupiditate quas animi hic velit aperiam veniam in quasi debitis porro saepe doloribus distinctio magni dignissimos vitae dolorum nemo asperiores?",
-        "liveLink": "https://visa-navigator-client-side.web.app/"
+        "img": "https://i.ibb.co/Sfr5nfc/Screenshot-2025-01-05-002411.png",
+        "name": "LINGO BINGO",
+        "description": "A language-learning platform with gamified lessons to make learning engaging and fun.",
+        "liveLink": "https://lingo-bingo-aecbd.firebaseapp.com/",
+        "keyFeatures": [
+            "Interactive lessons with gamified quizzes",
+            "Progress tracking for users",
+            "Personalized language learning paths",
+            "Multilingual support"
+        ],
+        "challenges": [
+            "Designing engaging gamification features",
+            "Ensuring scalability for multiple users",
+            "Building a robust user authentication system"
+        ],
+        "technologiesUsed": [
+            "React",
+            "Firebase",
+            "Tailwind CSS",
+            "Daisy UI"
+        ]
     },
     {
         "id": "03",
-        "img": "https://i.ibb.co/Sfr5nfc/Screenshot-2025-01-05-002411.png",
-        "name": "LINGO BINGO",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, ut cupiditate quas animi hic velit aperiam veniam in quasi debitis porro saepe doloribus distinctio magni dignissimos vitae dolorum nemo asperiores?",
-        "liveLink": "https://lingo-bingo-aecbd.firebaseapp.com/"
+        "img": "https://i.ibb.co/Jnj2t12/Screenshot-2025-01-05-002059.png",
+        "name": "VISA NAVIGATOR",
+        "description": "A platform for navigating visa requirements and application processes for travelers worldwide.",
+        "liveLink": "https://modern-hotel-booking-platform.web.app/",
+        "keyFeatures": [
+            "Comprehensive visa requirement database",
+            "User-friendly search and filter options",
+            "Step-by-step visa application guidance",
+            "Responsive design for all devices"
+        ],
+        "challenges": [
+            "Compiling accurate visa data for multiple countries",
+            "Creating an intuitive user experience",
+            "Ensuring data privacy and security"
+        ],
+        "technologiesUsed": [
+            "React",
+            "Firebase",
+            "Node.js",
+            "Tailwind CSS"
+        ]
     }
 ]

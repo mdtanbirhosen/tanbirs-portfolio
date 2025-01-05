@@ -24,8 +24,12 @@ const Banner = () => {
                     />
                 </h2>
                 <div className='flex flex-wrap gap-4'>
+                    <a href="#contact-me">
                     <Button text='Hire Me'></Button>
+                    </a>
+                    <a href="/resume.pdf" download="Md_Tanbir_Hossen_Resume.pdf">
                     <Button text='Download Resume'></Button>
+                    </a>
                 </div>
             </div>
             {/* Image section */}
