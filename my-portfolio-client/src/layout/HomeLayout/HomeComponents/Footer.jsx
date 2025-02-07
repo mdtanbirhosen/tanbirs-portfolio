@@ -2,6 +2,9 @@ import footerLogo from '../../../assets/footer_logo.png';
 import { FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
+
+
+
     return (
         <footer className="bg-black text-white py-10">
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-5">
