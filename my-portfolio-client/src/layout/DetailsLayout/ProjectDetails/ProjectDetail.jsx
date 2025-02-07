@@ -22,7 +22,7 @@ const ProjectDetail = () => {
             .catch(error => console.error('Error fetching data:', error));
     }, [params.id]);
 
-    const { name, img, description, liveLink, keyFeatures, challenges, technologiesUsed } = project;
+    const { name, img, description, liveLink, keyFeatures, challenges, technologiesUsed, potentialImprovements } = project;
 
     return (
         <div className='min-h-screen px-2 max-w-screen-2xl mx-auto pb-10'>
@@ -79,12 +79,25 @@ const ProjectDetail = () => {
                             </ul>
                         </div>
                     )}
+                    {potentialImprovements && (
+                        <div>
+                            <h3 className='text-xl font-semibold mb-2'>Potential improvements & future plans:</h3>
+                            <ul className='list-disc list-inside space-y-2'>
+                                {potentialImprovements.map((tech, index) => (
+                                    <li key={index} className='text-gray-400'>
+                                        {tech}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
                     {liveLink && (
                         <a
                             href={liveLink}
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='mt-4'
+                            className='mt-4 flex  justify-center md:justify-start'
+
                             >
                                 <Button text='View Live Project'></Button>
                             
@@ -92,8 +105,10 @@ const ProjectDetail = () => {
                     )}
                 </div>
             </div>
-            <div className='mt-5'>
+            <div className='mt-5 flex flex-col md:flex-row  items-center justify-center pt-3 gap-3'>
             <Link to={'/'}><Button text={`⬅ Back to Home`}/></Link>
+            {/* TODO: under construction */}
+            <Link to={'/'}><Button text={`View All Projects`}/></Link>
             </div>
         </div>
     );

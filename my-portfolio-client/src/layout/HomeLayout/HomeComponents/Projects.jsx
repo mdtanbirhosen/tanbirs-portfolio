@@ -8,7 +8,7 @@ const Projects = () => {
     useEffect(() => {
         fetch('./projectsData.json')
         .then(res => res.json())
-        .then(data => setProjects(data))
+        .then(data => setProjects(data.slice(0,3)))
     },[])
 
     return (
