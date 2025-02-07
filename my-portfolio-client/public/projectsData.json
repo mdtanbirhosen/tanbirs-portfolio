@@ -1,10 +1,39 @@
 [
     {
         "id": "01",
+        "img": "https://i.ibb.co.com/D0pbnRz/image.png",
+        "name": "Tour Nest",
+        "description": "A all in one tourist management web application for different authorized users and smooth user experience.",
+        "liveLink": "https://visa-navigator-client-side.web.app/",
+        "github_code_link":"https://github.com/mdtanbirhosen/Modern-Hotel-Booking-Client",
+        "keyFeatures": [
+            "Three steps Authorization for Admin, Tour-Guide, Tourist",
+            "Different routes base role",
+            "Stripe payment system"
+        ],
+        "challenges": [
+            "Implementing real-time room availability",
+            "Integrating payment gateways securely",
+            "Optimizing performance for large data sets"
+        ],
+        "technologiesUsed": [
+            "React",
+            "Firebase",
+            "Tailwind CSS",
+            "Node.js",
+            "Tanstack",
+            "Stripe",
+            "MongoDB",
+            "Express.js"
+        ]
+    },
+    {
+        "id": "02",
         "img": "https://i.ibb.co/DpmDrg1/Screenshot-2025-01-05-002026.png",
         "name": "Modern Hotel",
         "description": "A responsive hotel booking platform offering seamless user experience and efficient booking management.",
         "liveLink": "https://visa-navigator-client-side.web.app/",
+        "github_code_link":"https://github.com/mdtanbirhosen/Modern-Hotel-Booking-Client",
         "keyFeatures": [
             "User-friendly interface for booking rooms",
             "Dynamic room availability checking",
@@ -20,15 +49,18 @@
             "React",
             "Firebase",
             "Tailwind CSS",
-            "Node.js"
+            "Node.js",
+            "MongoDB",
+            "Express.js"
         ]
     },
     {
-        "id": "02",
+        "id": "03",
         "img": "https://i.ibb.co/Sfr5nfc/Screenshot-2025-01-05-002411.png",
         "name": "LINGO BINGO",
         "description": "A language-learning platform with gamified lessons to make learning engaging and fun.",
         "liveLink": "https://lingo-bingo-aecbd.firebaseapp.com/",
+        "github_code_link":"https://github.com/mdtanbirhosen/Lingo-Bingo",
         "keyFeatures": [
             "Interactive lessons with gamified quizzes",
             "Progress tracking for users",
@@ -48,11 +80,12 @@
         ]
     },
     {
-        "id": "03",
+        "id": "04",
         "img": "https://i.ibb.co/Jnj2t12/Screenshot-2025-01-05-002059.png",
         "name": "VISA NAVIGATOR",
         "description": "A platform for navigating visa requirements and application processes for travelers worldwide.",
-        "liveLink": "https://modern-hotel-booking-platform.web.app/",
+        "liveLink": "https://visa-navigator.surge.sh/",
+        "github_code_link":"https://github.com/mdtanbirhosen/Visa-Navigator-Client-",
         "keyFeatures": [
             "Comprehensive visa requirement database",
             "User-friendly search and filter options",
