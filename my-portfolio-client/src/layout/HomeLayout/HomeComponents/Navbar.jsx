@@ -46,7 +46,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="pr-2" href="/resume.pdf" download="Md_Tanbir_Hossen_Resume.pdf">
+                <a className="pr-2" href="https://drive.google.com/file/d/1yQORbgSBxQXGrspM0fKEH0nQCols77Ps/view?usp=sharing" download="Md_Tanbir_Hossen_Resume.pdf">
                     <Button text='Resume' primary={true}></Button>
                 </a>
             </div>

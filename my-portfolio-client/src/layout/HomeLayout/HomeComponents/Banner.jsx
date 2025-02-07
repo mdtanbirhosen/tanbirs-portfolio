@@ -1,7 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import bannerImg from '../../../assets/tanbir-min (1).png';
 import Button from '../../../components/Button';
-import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Banner = () => {
     return (
@@ -43,18 +43,29 @@ const Banner = () => {
                         <FaGithub className="text-4xl " />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/md-tanbir-hosen-669056251/"
+                        href="https://www.linkedin.com/in/md-tanbir-hosen/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="hover:text-primary-color"
-                        title="LinkedIn coming soon!"
                     >
                         <FaLinkedin className="text-4xl  opacity-50 cursor-not-allowed" />
                     </a>
+                    <a
+                        href="https://x.com/mdtanbirhosen"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-primary-color"
+                    >
+                        <FaTwitter className="text-4xl  opacity-50 cursor-not-allowed" />
+                    </a>
+                   
                 </div>
                 <div className='flex flex-wrap gap-4'>
                     <a href="#contact-me">
                         <Button text='Hire Me'></Button>
                     </a>
-                    <a href="/resume.pdf" download="Md_Tanbir_Hossen_Resume.pdf">
+                    {/* download resume */}
+                    <a href="https://drive.google.com/file/d/1yQORbgSBxQXGrspM0fKEH0nQCols77Ps/view?usp=sharing" download="Md_Tanbir_Hossen_Resume.pdf">
                         <Button text='Download Resume'></Button>
                     </a>
                 </div>
