@@ -58,6 +58,9 @@ const Footer = () => {
             <div className="mt-10 border-t border-gray-700 pt-5 text-center text-sm text-gray-400">
                 &copy; {new Date().getFullYear()} Md Tanbir Hossen. All rights reserved.
             </div>
+            <div>
+            
+            </div>
         </footer>
     );
 };

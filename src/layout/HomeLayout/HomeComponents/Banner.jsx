@@ -14,7 +14,7 @@ const Banner = () => {
                         <span className="font-medium text-3xl md:text-5xl  lg:text-6xl">Md.Tanbir</span> Hossen
                     </span>
                 </h5>
-                <h2 className="text-3xl md:text-5xl lg:text-6xl mb-4">
+                <h2 className="text-3xl md:text-5xl lg:text-5xl mb-4">
                     <Typewriter
                         options={{
                             strings: ["Web Developer", "Frontend Developer","MERN Stack Developer"],

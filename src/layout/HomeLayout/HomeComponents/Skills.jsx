@@ -51,6 +51,7 @@ const Skills = () => {
                         </div>
                     ))}
                 </Marquee>
+                
             </div>
         </div>
     );

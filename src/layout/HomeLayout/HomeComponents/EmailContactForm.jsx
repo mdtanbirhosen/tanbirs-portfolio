@@ -83,6 +83,7 @@ const EmailContactForm = () => {
                         <Button text={loading ? "Sending..." : "Send"}></Button>
                     </button>
                 </div>
+                
             </form>
 
         </div>
