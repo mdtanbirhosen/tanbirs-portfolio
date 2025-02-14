@@ -120,5 +120,96 @@
             "Introduce SSLCommerz subscription payments for premium language-learning courses.",
             "Develop an interactive admin panel to track user progress, manage content, and analyze learning patterns."
         ]
+    },
+    {
+        "id": "5",
+        "img": "https://i.ibb.co.com/vvVZ9X0L/Screenshot-2025-02-12-195523.png",
+        "name": "GADGET HEAVEN",
+        "description": "Gadget Heaven is an interactive e-commerce platform for tech enthusiasts, offering a seamless shopping experience for the latest gadgets and accessories.",
+        "liveLink": "https://phero-gadget-heaven.surge.sh/",
+        "github_code_link": "https://github.com/mdtanbirhosen/Gadget-Heaven",
+        "keyFeatures": [
+            "chat based on product's price and rating",
+            "Responsive for all devices",
+            "Cart and wishlist products",
+            "Dynamic data based on category"
+        ],
+        "challenges": [
+            "Dynamic navbar in banner",
+            "Category based products rendering"
+        ],
+        "technologiesUsed": [
+            "React",
+            "React Router Dom",
+            "Tailwind CSS",
+            "React-Toastify",
+            "Daisy UI"
+        ]
+    },
+    {
+        "id": "6",
+        "img": "https://i.ibb.co.com/vvVZ9X0L/Screenshot-2025-02-12-195523.png",
+        "name": "PEDDY",
+        "description": "Peddy is a pet-related website designed to connect pet lovers with essential services, products, and communities.",
+        "liveLink": "https://phero-assignment-6.surge.sh/",
+        "github_code_link": "https://github.com/mdtanbirhosen/Peddy",
+        "keyFeatures": [
+            "You can see categories wise pets",
+            "You can see price descinding wise pets",
+            "When you press any categories of pets the button will change in another color.",
+            "When details button is press you will see a modal which has details about pets."
+        ],
+        "challenges": [
+            "when you like any pet it will add in a liked section when you using mobile it will show in bottom and when in tablet or pc it is shown in right side.",
+            "when you click any of adopt button you will see a modal which has countdown from 3 and it will close automatically and after clicked the adopt button will change in adopted and the button will disabled."
+        ],
+        "technologiesUsed": [
+            "Java Script",
+            "Tailwind CSS",
+            "Google Fonts",
+            "Daisy UI"
+        ]
+    },
+    {
+        "id": "7",
+        "img": "https://i.ibb.co.com/6czbcjjQ/Screenshot-2025-02-12-214132.png",
+        "name": "CRICKET BUZZ",
+        "description": "CricketBuzz is a dedicated platform for cricket enthusiasts, providing real-time updates, player stats, match analysis, and exclusive insights on cricketers.",
+        "liveLink": "https://cricket-buzz.surge.sh/",
+        "github_code_link": "https://github.com/mdtanbirhosen/Cricket-Buzz.git",
+        "keyFeatures": [
+            "You can choose Players using button Choose Player and it's add in Selected section.",
+            "You can toggle between Available and Toggle button and it's color is toggle too"
+        ],
+        "challenges": [
+            "From selected section you can delete selected players and when you perform these operations the navbar's coin will change.",
+            "on the banner when you click Claim Free Credit button it will add 10 lakh coins in your account and show in navbar balance of coin."
+        ],
+        "technologiesUsed": [
+            "React",
+            "Tailwind CSS",
+            "Daisy UI"
+        ]
+    },
+    {
+        "id": "8",
+        "img": "https://i.ibb.co.com/393RdmNt/Screenshot-2025-02-12-230413.png",
+        "name": "DONATE BANGLADESH",
+        "description": "CricketBuzz is a dedicated platform for cricket enthusiasts, providing real-time updates, player stats, match analysis, and exclusive insights on cricketers.",
+        "liveLink": "http://donation-system.surge.sh/",
+        "github_code_link": "https://github.com/mdtanbirhosen/Assignment-5.git",
+        "keyFeatures": [
+            "You can chose your donation cart and your donation history was saved in history section.",
+            "You have blog page for some question."
+        ],
+        "challenges": [
+            "Donation history page."
+        ],
+        "technologiesUsed": [
+            "surge",
+            "Tailwind CSS",
+            "Daisy UI",
+            "Java Script"
+        ]
     }
 ]
