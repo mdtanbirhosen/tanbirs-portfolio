@@ -48,7 +48,7 @@ const Banner = () => {
                         rel="noopener noreferrer"
                         className="hover:text-primary-color"
                     >
-                        <FaLinkedin className="text-4xl  opacity-50 cursor-not-allowed" />
+                        <FaLinkedin className="text-4xl " />
                     </a>
                     <a
                         href="https://x.com/mdtanbirhosen"
@@ -56,7 +56,7 @@ const Banner = () => {
                         rel="noopener noreferrer"
                         className="hover:text-primary-color"
                     >
-                        <FaTwitter className="text-4xl  opacity-50 cursor-not-allowed" />
+                        <FaTwitter className="text-4xl  " />
                     </a>
                    
                 </div>

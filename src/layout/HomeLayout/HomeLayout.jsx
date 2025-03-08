@@ -26,7 +26,7 @@ const HomeLayout = () => {
                 </section>
                 <section>
                     <Projects></Projects>
-                </section>
+                </section> 
                 <section>
                     <Contact></Contact>
                 </section>
