@@ -1,5 +1,5 @@
 
-import { FaPhoneAlt, FaEnvelope, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaLinkedin, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 
 const ContactInfo = () => {
     return (
@@ -22,22 +22,16 @@ const ContactInfo = () => {
                 {/* LinkedIn */}
                 <div className="flex items-center space-x-3">
                     <a
-                        href="https://www.linkedin.com/in/md-tanbir-hosen-669056251/"
+                        href="https://www.linkedin.com/in/md-tanbir-hosen/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-3"
                     >
-                    <FaLinkedin className="text-2xl text-blue-700" />
-                    <span className="text-sm md:text-base text-gray-400 link-hover">Linkedin</span>
+                        <FaLinkedin className="text-2xl text-blue-700" />
+                        <span className="text-sm md:text-base text-gray-400 link-hover">Linkedin</span>
                     </a>
                 </div>
 
-                {/* Instagram */}
-                <div className="flex items-center space-x-3">
-                    <FaInstagram className="text-2xl text-pink-500" />
-                    <span className="text-sm md:text-base text-gray-400">Instagram</span>
-                    
-                </div>
                 {/* Facebook */}
                 <div className="flex items-center space-x-3">
                     <a
@@ -49,6 +43,14 @@ const ContactInfo = () => {
                         <FaFacebook className="text-2xl text-pink-500" />
                         <span className="text-sm md:text-base text-gray-400 link-hover">Facebook</span>
                     </a>
+                </div>
+
+                {/* WhatsApp */}
+                <div className="flex items-center space-x-3">
+                    
+                        <FaWhatsapp className="text-2xl text-pink-500" />
+                        <span className="text-sm md:text-base text-gray-400">+8801888156886</span>
+                    
                 </div>
 
             </div>
